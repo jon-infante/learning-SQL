@@ -1,0 +1,22 @@
+[
+  {
+    "students_id": "1",
+    "name": "Tom",
+    "major": "undecided"
+  },
+  {
+    "students_id": "2",
+    "name": "Kate",
+    "major": "undecided"
+  },
+  {
+    "students_id": "3",
+    "name": "Clarie",
+    "major": "undecided"
+  },
+  {
+    "students_id": "4",
+    "name": "Jack",
+    "major": "undecided"
+  }
+]

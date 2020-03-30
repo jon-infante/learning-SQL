@@ -1,0 +1,30 @@
+
+CREATE TABLE students (
+    students_id INT AUTO_INCREMENT ,
+    name VARCHAR(20),
+    major VARCHAR(20) DEFAULT 'undecided',
+    PRIMARY KEY(students_id)
+);
+
+DESCRIBE students;
+
+
+DROP TABLE students;
+
+ALTER TABLE students ADD gpa DECIMAL(3, 2)
+
+ALTER TABLE students DROP COLUMN gpa;
+
+SELECT * FROM students LIMIT 5;
+
+INSERT INTO students(name, major) VALUES('Jack', 'Biology');
+INSERT INTO students(name, major) VALUES('Kate', 'Sociology');
+INSERT INTO students(name, major) VALUES('Clarie', 'Chemistry');
+INSERT INTO students(name, major) VALUES('Jack', 'Biology');
+INSERT INTO students(name, major) VALUES('Mike', 'Computer Science' );
+
+UPDATE students
+SET major = 'undecided'
+
+DELETE FROM students
+WHERE students_id = 5;
